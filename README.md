@@ -1,5 +1,7 @@
 # Avenger — Go port
 
+**▶ Play it in your browser: <https://chrplr.github.io/avenger-go/>**
+
 A Go re-implementation of the Pygame Zero game **Avenger** from *Code the Classics
 Volume 2* (Raspberry Pi Press), built on
 [go-sdl3](https://github.com/Zyko0/go-sdl3) and the
