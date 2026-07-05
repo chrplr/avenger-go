@@ -1,5 +1,7 @@
 # Avenger — Go port
 
+[![Latest release](https://img.shields.io/github/v/release/chrplr/avenger-go)](https://github.com/chrplr/avenger-go/releases/latest)
+
 **▶ Play it in your browser: <https://chrplr.github.io/avenger-go/>**
 
 A Go re-implementation of the Pygame Zero game **Avenger** from *Code the Classics
