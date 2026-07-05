@@ -53,11 +53,13 @@ func (c Controls) getY() float64 {
 
 // Fire is any keyboard fire key or either gamepad face button (A/B).
 func (c Controls) buttonDown() bool {
-	return keyDown(sdl.SCANCODE_SPACE) || keyDown(sdl.SCANCODE_Z) || keyDown(sdl.SCANCODE_X) || keyDown(sdl.SCANCODE_LCTRL) ||
+	return keyDown(sdl.SCANCODE_SPACE) || keyDown(sdl.SCANCODE_RETURN) || keyDown(sdl.SCANCODE_KP_ENTER) ||
+		keyDown(sdl.SCANCODE_Z) || keyDown(sdl.SCANCODE_X) || keyDown(sdl.SCANCODE_LCTRL) ||
 		padButton0() || padButton1()
 }
 
 func (c Controls) buttonPressed() bool {
-	return keyJustPressed(sdl.SCANCODE_SPACE) || keyJustPressed(sdl.SCANCODE_Z) || keyJustPressed(sdl.SCANCODE_X) || keyJustPressed(sdl.SCANCODE_LCTRL) ||
+	return keyJustPressed(sdl.SCANCODE_SPACE) || keyJustPressed(sdl.SCANCODE_RETURN) || keyJustPressed(sdl.SCANCODE_KP_ENTER) ||
+		keyJustPressed(sdl.SCANCODE_Z) || keyJustPressed(sdl.SCANCODE_X) || keyJustPressed(sdl.SCANCODE_LCTRL) ||
 		padButton0Pressed() || padButton1Pressed()
 }
