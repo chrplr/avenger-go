@@ -204,12 +204,12 @@ convention into a "blit at position minus camera" convention.
 
 ---
 
-## 9. Framework specifics
+## 9. Framework: Pygame Zero → pgzgo (on go-sdl3)
 
-| Concern | Python | Go (go-sdl3) |
+| Concern | Python | Go (via pgzgo, + game-specific) |
 |---|---|---|
 | Terrain collision | `pygame.mask.from_surface` + `get_at` | decode `terrain.png` to `image.Image`, test alpha in `CheckTerrain` |
-| Radar clipping | `screen.surface.set_clip(rect)` | `renderer.SetClipRect(&rect)` |
+| Radar clipping | `screen.surface.set_clip(rect)` | `Screen.SetClip` (pgzgo) |
 | Blit anchor | `Actor` centre/anchor | `Sprite.anchorOffset` (centre or explicit `Ax,Ay`) |
 | Text | `getattr(images, font+"0"+ord)` | same technique in `Assets.DrawText` |
 | Explosion anchor swap | reset `self.anchor` mid-animation | set `AnchorCentre=false; Ax,Ay=…` |
