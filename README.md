@@ -4,8 +4,6 @@
 
 **▶ Play it in your browser: <https://chrplr.github.io/avenger-go/>**
 
-*The in-browser version runs at the correct speed on any monitor, including high-refresh (120/144 Hz) displays, since [pgzgo](https://github.com/chrplr/pgzgo) v0.4.0.*
-
 A Go re-implementation of the Pygame Zero game **Avenger** from *Code the Classics
 Volume 2* (Raspberry Pi Press), built on
 [go-sdl3](https://github.com/Zyko0/go-sdl3) and the
@@ -26,6 +24,10 @@ Single-player shooter.
 | Quit   | Esc | Start |
 
 Gamepad support is native-only; the in-browser build is keyboard-only.
+
+**Playing on a non-US keyboard?** The game reads *physical key positions* (US QWERTY layout), not the printed letters — so on an AZERTY or QWERTZ keyboard a labelled key may sit somewhere else. Find each key on the picture below and press the same spot on your own board.
+
+![Keyboard controls for Avenger](keyboard.svg)
 
 ## Download
 
