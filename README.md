@@ -29,6 +29,16 @@ Gamepad support is native-only; the in-browser build is keyboard-only.
 
 ![Keyboard controls for Avenger](keyboard.svg)
 
+## How to play
+
+**The goal.** It's a Defender-style shooter. You fly back and forth across a long, wrapping landscape defending the **humans** on the ground from waves of aliens. Destroy every enemy in a wave to move on to the next, bigger one.
+
+**Protect the humans.** Alien **landers** drop down and try to grab a human and carry it up to the top of the screen. Shoot the lander before it gets there. If a human is successfully abducted it turns into a fast, dangerous **mutant** — so stop the abductions early.
+
+**Rescue drops.** Shoot a lander that's already carrying a human and the human falls. Fly underneath to **catch it**, then carry it back down and set it safely on the ground.
+
+**Flying and shooting.** **Move** in all directions and hold **Fire** to shoot ahead of you; the level is much wider than the screen, so chase enemies across it and use the scroll to cover both ends. You start with **5 lives** and a **shield** that soaks up some hits before you lose one. Press a Fire key to start.
+
 ## Download
 
 Prebuilt, self-contained binaries — no install, no dependencies, assets embedded.
